@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="32x32" rel="icon" href="assets/icons/favicone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Plants</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <img src="assets/icons/logo_vector.svg" alt="logo-plants" class="header-logo-icon">
+                    <span class="header-logo-text">Plants</span>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-list-item">
+                            <a href="#" class="header-nav-list-link link-active">Home</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="#about" class="header-nav-list-link">About us</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="#service" class="header-nav-list-link">Service</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="#prices" class="header-nav-list-link">Price</a>
+                        </li>
+                        <li class="header-nav-list-item">
+                            <a href="#contacts" class="header-nav-list-link">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /.header -->
+    <main>
+        <section class="welcome" id="welcome">
+            <div class="container">
+                <div class="welcome-wrapper">
+                    <div class="welcome-image"></div>
+                    <div class="welcome-text">
+                        <h1 class="welcome-text-title">We grow <span class="green">plants</span> and give you oxygen</h1>
+                        <p class="welcome-text-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                        <button onclick="window.location.href = '#about'" class="btn welcome-btn">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.welcome -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-text">
+                        <h2 class="about-text-title"><span class="green">We are</span> professional experienced <span class="green">gardeners</span></h2>
+                        <p class="about-text-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    </div>
+                    <img src="assets/images/houseplant-1.png" alt="about" class="about-image">
+                </div>
+            </div>
+        </section>
+        <!-- /.about -->
+        <section class="service" id="service">
+            <div class="container">
+                <div class="service-wrapper">
+                    <div class="service-header">
+                        <h2 class="service-title">Service and our projects</h2>
+                        <div class="service-panel">
+                            <button class="service-btn">Gardens</button>
+                            <button class="service-btn">Lawn</button>
+                            <button class="service-btn">Planting</button>
+                        </div>
+                    </div>
+                    <div class="service-list">
+                        <div class="service-item" data="Gardens">
+                            <img src="assets/images/first.jpg" alt="garden" class="service-item-image">
+                            <img src="assets/images/designerloh/1.jpg" alt="garden" class="service-item-image designerloh">
+                            <div class="service-item-text">
+                                <h3 class="service-item-title">Garden care</h3>
+                                <p class="service-item-description">Lorem Ipsum has been the industry</p>
+                            </div>                        
+                        </div>
+                        <div class="service-item" data="Planting">
+                            <img src="assets/images/planting.jpg" alt="planting" class="service-item-image">
+                            <img src="assets/images/designerloh/2.jpg" alt="garden" class="service-item-image designerloh">
+                            <div class="service-item-text">
+                                <h3 class="service-item-title">Planting</h3>
+                                <p class="service-item-description">Lorem Ipsum has been the industry</p>
+                            </div>                           
+                        </div>
+                        <div class="service-item" data="Lawn">
+                            <img src="assets/images/lawn.jpg" alt="lawn" class="service-item-image">
+                            <img src="assets/images/designerloh/3.jpg" alt="garden" class="service-item-image designerloh">
+                            <div class="service-item-text">
+                                <h3 class="service-item-title">Lawn care</h3>
+                                <p class="service-item-description">Lorem Ipsum has been the industry</p>
+                            </div>                          
+                        </div>
+                        <div class="service-item" data="Planting">
+                            <img src="assets/images/planting-2.jpg" alt="planting" class="service-item-image">
+                            <img src="assets/images/designerloh/4.jpg" alt="garden" class="service-item-image designerloh">
+                            <div class="service-item-text">
+                                <h3 class="service-item-title">Planting</h3>
+                                <p class="service-item-description">Lorem Ipsum has been the industry</p>
+                            </div>                          
+                        </div>
+                        <div class="service-item" data="Gardens">
+                            <img src="assets/images/garden.jpg" alt="garden" class="service-item-image">
+                            <img src="assets/images/designerloh/5.jpg" alt="garden" class="service-item-image designerloh">
+                            <div class="service-item-text">
+                                <h3 class="service-item-title">Garden care</h3>
+                                <p class="service-item-description">Lorem Ipsum has been the industry</p>
+                            </div>                        
+                        </div>
+                        <div class="service-item" data="Planting">
+                            <img src="assets/images/planting-3.jpg" alt="planting" class="service-item-image">
+                            <img src="assets/images/designerloh/6.jpg" alt="garden" class="service-item-image designerloh">
+                            <div class="service-item-text">
+                                <h3 class="service-item-title">Planting</h3>
+                                <p class="service-item-description">Lorem Ipsum has been the industry</p>
+                            </div>                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.service -->
+        <section class="prices" id="prices">
+            <div class="container">
+                <div class="prices-wrapper">
+                    <div class="prices-block">
+                        <h2 class="prices-block-title">Prices</h2>
+                        <div class="prices-accordion">
+                            <div class="prices-accordion__item">
+                                <div class="prices-accordion__header">
+                                    <h3 class="prices-accordion__header-title">Basics</h3>
+                                    <div class="prices-accordion__header-icon">
+                                        <svg class="prices-accordion__header-arrow">
+                                            <use xlink:href="assets/icons/sprites.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="prices-accordion__body">
+                                    <div class="prices-accordion__body-line"></div>
+                                    <p class="prices-accordion__body-description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p class="prices-accordion__body-price"><span class="currency">&#36;</span><span class="currency-value">15</span> <span class="currency-slash">/ per hour</span>
+                                    </p>
+                                    <button onclick="window.location.href = '#contacts'" class="btn prices-accordion__body-btn">ORDER</button>
+                                </div>
+                            </div>
+                            <div class="prices-accordion__item">
+                                <div class="prices-accordion__header">
+                                    <h3 class="prices-accordion__header-title">Standard</h3>
+                                    <div class="prices-accordion__header-icon">
+                                        <svg class="prices-accordion__header-arrow">
+                                            <use xlink:href="assets/icons/sprites.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="prices-accordion__body">
+                                    <div class="prices-accordion__body-line"></div>
+                                    <p class="prices-accordion__body-description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p class="prices-accordion__body-price"><span class="currency">&#36;</span><span class="currency-value">25</span> <span class="currency-slash">/ per hour</span>
+                                    </p>
+                                    <button onclick="window.location.href = '#contacts'" class="btn prices-accordion__body-btn">ORDER</button>
+                                </div>
+                            </div>
+                            <div class="prices-accordion__item">
+                                <div class="prices-accordion__header">
+                                    <h3 class="prices-accordion__header-title">Pro care</h3>
+                                    <div class="prices-accordion__header-icon">
+                                        <svg class="prices-accordion__header-arrow">
+                                            <use xlink:href="assets/icons/sprites.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="prices-accordion__body">
+                                    <div class="prices-accordion__body-line"></div>
+                                    <p class="prices-accordion__body-description">Release of Letraset sheets containing Lorem Ipsum passages, and more recently</p>
+                                    <p class="prices-accordion__body-price"><span class="currency">&#36;</span><span class="currency-value">35</span> <span class="currency-slash">/ per hour</span>
+                                    </p>
+                                    <button onclick="window.location.href = '#contacts'" class="btn prices-accordion__body-btn">ORDER</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.accordion -->
+                    <div class="prices-call">
+                        <h2 class="prices-call-title">
+                            Our best <span class="green">gardeners</span> are ready to help you
+                        </h2>
+                        <button onclick="window.location.href = '#contacts'" class="btn prices-call-btn">Contact us</button>
+                        <div class="prices-call-image"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.prices -->
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts-wrapper">
+                    <h2 class="contacts-title">Contact us</h2>
+                    <div class="contacts-cities">
+                        <div class="contacts-cities__header">
+                            <h3 class="contacts-cities__header-title">City</h3>
+                            <div class="contacts-cities__header-icon">
+                                <svg class="contacts-cities__header-arrow">
+                                    <use xlink:href="assets/icons/sprites.svg#arrow"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="contacts-cities__body">
+                            <ul class="contacts-cities__body-list">
+                            </ul>
+                        </div>
+                        <div class="contacts-cities__info"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.contacts -->
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-git">
+                    <span class="footer-git__text">&#169;</span>
+                    <span class="footer-git__text">2022</span>
+                    <a href="https://github.com/GlebasusBP" class="footer-git__text-link" target="_blank">github</a>
+                </div>
+                <a href="https://rs.school/js/" class="footer-link" target="_blank">Rolling Scopes School</a>
+                <ul class="footer-contacts">
+                    <li class="footer-contacts__item">
+                        <a href="https://github.com/GlebasusBP" class="footer-contacts__link" target="_blank">
+                            <svg class="footer-contacts__icon">
+                                   <use xlink:href="assets/icons/sprites.svg#inst"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-contacts__item">
+                        <a href="https://github.com/GlebasusBP" class="footer-contacts__link" target="_blank">
+                            <svg class="footer-contacts__icon">
+                                   <use xlink:href="assets/icons/sprites.svg#fb"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-contacts__item">
+                        <a href="https://github.com/GlebasusBP" class="footer-contacts__link" target="_blank">
+                            <svg class="footer-contacts__icon">
+                                 <use xlink:href="assets/icons/sprites.svg#tw"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-contacts__item">
+                        <a href="https://github.com/GlebasusBP" class="footer-contacts__link" target="_blank">
+                            <svg class="footer-contacts__icon">
+                                <use xlink:href="assets/icons/sprites.svg#pint"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
