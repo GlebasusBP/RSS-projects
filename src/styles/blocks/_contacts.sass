@@ -1,0 +1,126 @@
+.contacts
+  background-color: $bigSection
+  &-wrapper
+    height: 550px
+    padding-top: 60px
+    background-image: url('../assets/images/contact.png')
+    background-repeat: no-repeat
+    background-position: left bottom
+  &-title
+    font-family: 'Inika'
+    font-weight: 700
+    font-size: 40px
+    line-height: 52px
+    color: $green
+    text-align: center
+    margin-bottom: 37px
+  &-cities
+    width: 450px
+    float: right
+    &__header
+      height: 50px
+      display: flex
+      align-items: center
+      justify-content: space-between
+      padding: 5px 35px 5px 20px
+      background: #D6E7D2
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+      border-radius: 0px
+      &-title
+        font-family: 'Inter'
+        font-style: normal
+        font-weight: 400
+        font-size: 20px
+        line-height: 40px
+        letter-spacing: 0.05em
+        color: $gray
+      &-icon
+        width: 16px
+        height: 16px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        background-color: #AEA1A1
+        cursor: pointer
+        transition: 0.2s
+      &-arrow
+        width: 4px
+        stroke: $white
+
+    &__body
+      display: none
+      background-color: #DCE9D9
+      padding: 27px 35px
+      &-list
+        list-style-type: none
+        display: flex
+        flex-direction: column
+        gap: 12px
+      &-item
+        cursor: pointer
+        border-bottom: 1px solid #D9D9D9
+        &:hover
+          border-bottom: 1px solid $gray
+        &-city
+          font-size: 16px
+          line-height: 40px
+          letter-spacing: 0.05em
+          color: $green
+          &:hover
+            color: $gray
+
+    &__info
+      display: none
+      width: 448px
+      height: 214px
+      background-color: $bigSection
+      border: 1px solid $black
+      margin-top: 48px
+      border-radius: 20px
+      padding: 17px 76px 32px 33px
+      font-size: 16px
+      line-height: 40px
+      &-render
+        display: flex
+        flex-direction: column
+      &-list
+        display: grid
+        grid-template-columns: 128px 1fr
+        
+  &-open
+    &-body
+      display: block
+    &-btn
+      transform: rotate(180deg)
+      background-color: #8BA07E
+
+.selected
+  display: flex
+  flex-direction: column
+  align-items: start
+  letter-spacing: 0.05em
+  &-definition
+    color: $gray
+  &-phone
+    text-decoration: none
+    color: $gray
+  &-btn
+    width: 122px
+    height: 26px
+    font-family: 'Inika'
+    font-weight: 700
+    font-size: 10px
+    line-height: 13px
+    text-align: center
+    color: $gray
+    margin-top: 17px
+      
+
+
+.open-info
+  display: block   
+
+  
+      
+  

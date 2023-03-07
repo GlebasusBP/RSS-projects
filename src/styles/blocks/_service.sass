@@ -1,0 +1,89 @@
+.service
+  padding: 40px 0 121px 0
+  background-color: $bigSection
+  &-wrapper
+    display: flex
+    flex-direction: column
+    gap: 80px
+  &-header
+    display: flex
+    gap: 142px
+    align-items: center
+  &-title
+    width: 306px
+    font-family: 'Inika'
+    font-weight: 400
+    font-size: 40px
+    line-height: 52px
+    color: $green
+  &-panel
+    display: flex
+    gap: 38px
+  &-btn
+    width: 161px
+    height: 50px
+    border: 1px solid $orange
+    border-radius: 5px
+    background: inherit
+    font-family: $inika
+    font-size: 20px
+    line-height: 26px
+    color: $orange
+    cursor: pointer 
+
+    
+  &-list
+    display: grid
+    align-items: center
+    grid-template-columns: repeat(auto-fit, minmax(280px, 330px))
+    grid-template-rows: 1fr 1fr
+    row-gap: 55px
+    justify-content: space-between
+  &-item
+    max-width: 330px
+    display: flex
+    flex-direction: column
+    align-items: center
+    &-image
+      width: 100%
+      border-radius: 20px 20px 0px 0px
+    &-text
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      gap: 13px
+      padding: 10px 0 34px 0
+      border: 1px solid #E3E1D5
+      border-radius: 0px 0px 20px 20px
+      font-family: $inter
+    &-title
+      font-weight: 700
+      font-size: 20px
+      line-height: 20px
+      color: $orange
+    &-description
+      font-size: 16px
+      line-height: 20px
+      color: $gray
+
+
+.blure
+  filter: blur(2px)
+  transition: 0.2s
+
+.btn-active
+  background-color: $orange
+  color: $white
+
+.hover
+  color: #FFFFFF
+  background-color: $orange
+  transition: 0.2s
+
+.click
+  box-shadow: 0 0 20px $gray
+
+.designerloh
+  display: none
+

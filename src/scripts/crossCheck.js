@@ -1,0 +1,5 @@
+function crossCheck(){
+  console.log(`
+    
+  `);
+}
