@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <title>momentum</title>
+<link href="./css/style.css" rel="stylesheet"></head>
+<body>
+  <header class="header">
+    <div class="player hide-block" selector="player">
+      <div class="active-sound">
+        <h3 class="active-sound-title">Player</h3>
+      </div>
+      <div class="player-controls">
+        <div class="player-time">
+          <div class="play-current">00:00</div>
+          <div>/</div>
+          <div class="duration">00:00</div>
+        </div>
+        <div class="timeline">
+          <div class="progress"></div>
+        </div>
+        <!--time-line-->
+        <div class="controls-block">
+          <div class="controls-btn">
+            <button class="play-prev player-icon"></button>
+            <button class="play player-icon"></button>
+            <button class="play-next player-icon"></button>
+          </div>
+          <div class="volume">
+            <button class="volume-btn volume-active"></button>
+            <div class="leavelline">
+              <div class="volume-leavel"></div>
+            </div>
+          </div>
+        </div>
+        <!--/.controls-block-->
+      </div>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="settings">
+      <div class="settings-wrapper close-settings" selector="set-panel">
+        <div class="settings-lang">
+          <h3 class="settings-titles"></h3>
+          <div class="lang lang-active" lang="eng"></div>
+          <div class="lang" lang="rus"></div>
+        </div>
+        <div class="settings-images">
+          <h3 class="settings-titles"></h3>
+          <input type="text" class="tag-img-api hide-input-tag" placeholder="tags">
+          <div class="settings-images-buttons">
+            <button class="settings-btn api" id="unsplash">Unsplash</button>
+            <button class="settings-btn api" id="rss">RSS</button>
+            <button class="settings-btn api" id="flickr">Flickr</button>
+          </div>
+        </div>
+        <div class="settings-content">
+          <h3 class="settings-titles"></h3>
+          <div class="settings-content-btn">
+            <button class="settings-btn condition" selector="time"></button>
+            <button class="settings-btn condition" selector="date"></button>
+            <button class="settings-btn condition" selector="quotes-block"></button>
+            <button class="settings-btn condition" selector="player"></button>
+            <button class="settings-btn condition" selector="weather-test"></button>
+            <button class="settings-btn condition" selector="greeting-container"></button>
+            <button class="settings-btn condition" selector="game"></button>
+          </div>
+        </div>
+      </div>
+      <img src="assets/svg/settings.svg" alt="settings" class="settings-icon close">
+    </div>
+    <div class="weather-test hide-block" selector="weather-test">
+      <div class="weather">
+        <input type="text" class="city"/>
+        <i class="weather-icon owf"></i>
+        <div class="weather-error"></div>
+        <div class="description-container">
+          <span class="temperature"></span>
+          <span class="weather-description"></span>
+        </div>
+        <div class="wind"></div>
+        <div class="humidity"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time hide-block" selector="time"></time>
+    <date class="date hide-block" selector="date"></date>
+    <div class="greeting-container hide-block" selector="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="quotes-block hide-block" selector="quotes-block">
+      <button class="change-quote"></button>
+      <div>
+        <div class="quote"></div>
+        <div class="author"></div>
+    </div>
+  </footer>
+<script src="main.js"></script></body>
+</html>
